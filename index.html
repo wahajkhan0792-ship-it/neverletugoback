@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Never Let U Go Back</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">NEVER LET U GO BACK</p>
+        <h1>The house remembers. The door never closes.</h1>
+        <p class="hero-copy">A haunted place for restless questions. Ask. The answer will find you, whether you want it or not.</p>
+        <a class="cta-button" href="#ask">Dare to ask</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="about" id="about">
+        <div class="text-block">
+          <h2>It waits for every return.</h2>
+          <p>Once you step through the threshold of memories, every reply drips with what you left behind. The site hears the whisper of your curiosity and opens the cracks wider.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Voices</h3>
+            <p>Answers come like footsteps in a hallway—unwelcome, inevitable, and always from behind.</p>
+          </article>
+          <article class="card">
+            <h3>Shadows</h3>
+            <p>Every response is a direction you never meant to follow. Your old choices are written in the walls.</p>
+          </article>
+          <article class="card">
+            <h3>Threshold</h3>
+            <p>One question opens the door. There is no retreat once the sentence is spoken.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="ask-section" id="ask">
+        <div class="ask-panel">
+          <h2>Ask the void</h2>
+          <p>Type one question. The place answers in a tone that knows what you left behind.</p>
+          <form id="question-form">
+            <label for="question">Your question</label>
+            <input id="question" name="question" type="text" placeholder="Will I ever be free?" required autocomplete="off">
+            <button type="submit">Unseal the answer</button>
+          </form>
+          <div id="response-container" class="response hidden">
+            <p class="response-label">The answer comes:</p>
+            <div id="response" class="response-text"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="warning">
+        <h2>Don't come back alone.</h2>
+        <p>Once the site speaks, every returning thought hears the echo. Leave with the warning, not the regret.</p>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
